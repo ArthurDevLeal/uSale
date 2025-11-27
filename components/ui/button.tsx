@@ -3,7 +3,7 @@ import React from "react";
 import { twMerge } from "tailwind-merge";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center text-center transition-colors cursor-pointer text-foreground disabled:opacity-50 disabled:cursor-not-allowed focus-visible:ring-1 ring-offset-1 ",
+  "inline-flex items-center justify-center text-center transition-all cursor-pointer text-foreground disabled:opacity-50 disabled:cursor-not-allowed focus-visible:ring-1 ring-offset-1 ",
   {
     variants: {
       variant: {
