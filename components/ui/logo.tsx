@@ -11,11 +11,14 @@ const SvgIcon = () => (
   </svg>
 );
 
-export default function Logo() {
+interface LogoProps {
+  iconIncluded?: boolean;
+}
+export default function Logo({ iconIncluded = true }: LogoProps) {
   return (
     <div className="inline-flex items-center gap-2">
       <SvgIcon />
-      <h1 className="font-extralight text-[32px] text-foreground">uSale</h1>
+      {iconIncluded && <h1 className="font-extralight text-[32px] text-foreground">uSale</h1>}
     </div>
   );
 }
