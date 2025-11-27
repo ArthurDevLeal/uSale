@@ -3,13 +3,16 @@
 :root {
   --background: #0F1216;
   --foreground: #ffffff;
-  --card: #1E2122
-  --accent: #759BBF
-  --muted-foreground: #828282
+  --card: #1d1f20;
+  --accent: #759BBF;
+  --muted-foreground: #828282;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-accent: var(--accent);
+  --color-card: var(--card);
+  --color-muted-foreground: var(--muted-foreground);
   --color-foreground: var(--foreground);
   --font-poppins: var(--font-poppins);
 }
@@ -17,5 +20,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins), Arial, Helvetica, sans-serif;
 }
