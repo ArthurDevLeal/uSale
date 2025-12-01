@@ -19,7 +19,7 @@ function Input({
       type={type}
       data-slot="input"
       className={twMerge(
-        "px-4 py-2 text-sm bg-card text-foreground border border-muted-foreground placeholder:text-muted-foreground rounded-xl outline-none transition-all focus-visible:ring-muted-foreground/30 focus-visible:ring-4 disabled:opacity-50",
+        "px-4 py-2 text-sm bg-card text-foreground border border-border placeholder:text-muted-foreground rounded-xl outline-none transition-all focus-visible:ring-muted-foreground/30 focus-visible:ring-4 disabled:opacity-50",
         Icon && iconPosition === "left" && "pl-10",
         Icon && iconPosition === "right" && "pr-10",
         className

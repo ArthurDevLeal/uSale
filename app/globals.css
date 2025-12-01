@@ -6,6 +6,7 @@
   --card: #1d1f20;
   --accent: #759BBF;
   --muted-foreground: #828282;
+  --border: #383838;
 }
 
 @theme inline {
@@ -14,6 +15,7 @@
   --color-card: var(--card);
   --color-muted-foreground: var(--muted-foreground);
   --color-foreground: var(--foreground);
+  --color-border: var(--border);
   --font-poppins: var(--font-poppins);
 }
 
