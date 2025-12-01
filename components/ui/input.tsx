@@ -7,7 +7,7 @@ function Input({ className, type, ...props }: React.ComponentProps<"input">) {
       type={type}
       data-slot="input"
       className={twMerge(
-        "px-4 py-2 text-sm bg-card text-foreground border border-muted-foreground placeholder:text-muted-foreground rounded-full outline-none transition-all  focus-visible:ring-muted-foreground/30 focus-visible:ring-4 disabled:opacity-50",
+        "px-4 py-2 text-sm bg-card text-foreground border border-muted-foreground placeholder:text-muted-foreground rounded-xl outline-none transition-all  focus-visible:ring-muted-foreground/30 focus-visible:ring-4 disabled:opacity-50",
         className
       )}
       {...props}

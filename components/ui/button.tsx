@@ -16,12 +16,12 @@ const buttonVariants = cva(
       size: {
         xs: "px-2.5 py-1 rounded-md text-xs font-medium",
         sm: "px-3 py-1.5 rounded-md text-sm font-medium",
-        md: "px-4 py-2 rounded-full text-base font-medium",
-        lg: "px-6 py-3 rounded-full font-medium text-base",
-        xl: "px-8 py-3.5 rounded-full text-lg font-semibold",
-        icon: "p-2 rounded-full text-base",
-        iconsm: "p-1.5 rounded-full text-sm",
-        iconlg: "p-3.5 rounded-full text-lg",
+        md: "px-4 py-2 rounded-xl text-base font-medium",
+        lg: "px-6 py-3 rounded-xl font-medium text-base",
+        xl: "px-8 py-3.5 rounded-xl text-lg font-semibold",
+        icon: "p-2 rounded-md text-base",
+        iconsm: "p-1.5 rounded-sm text-sm",
+        iconlg: "p-3.5 rounded-xl text-lg",
       },
     },
     defaultVariants: {
