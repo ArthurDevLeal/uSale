@@ -3,14 +3,14 @@ import React from "react";
 import { twMerge } from "tailwind-merge";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center text-center transition-all cursor-pointer text-foreground disabled:opacity-50 disabled:cursor-not-allowed focus-visible:ring-1 ring-offset-1 ",
+  "inline-flex items-center justify-center text-center transition-all cursor-pointer text-foreground disabled:opacity-50 disabled:cursor-not-allowed focus-visible:ring-muted-foreground/30 focus-visible:ring-4 outline-none",
   {
     variants: {
       variant: {
         default: "bg-accent hover:bg-accent/70",
         secondary: "bg-card  hover:bg-muted-foreground/20 ",
         outline: "border border-muted-foreground hover:bg-muted-foreground/20",
-        ghost: "hover:bg-muted-foreground/20",
+        ghost: "hover:bg-card/30",
         link: "underline-offset-4 hover:underline",
       },
       size: {
