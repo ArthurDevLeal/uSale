@@ -1,12 +1,12 @@
 import Logo from "../ui/logo";
 interface HeaderProps {
   text: string;
-  haveAnLogo?: boolean;
+  haveAnText?: boolean;
 }
-export default function Header({ text, haveAnLogo = true }: HeaderProps) {
+export default function Header({ text, haveAnText = true }: HeaderProps) {
   return (
     <>
-      <Logo iconIncluded={haveAnLogo} />
+      <Logo textIncluded={haveAnText} />
       <h2 className="text-3xl font-medium">{text}</h2>
     </>
   );
