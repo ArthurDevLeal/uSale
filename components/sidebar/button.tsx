@@ -15,7 +15,7 @@ export default function SidebarButton({ Icon, onClick, href, className }: Sideba
     <Link href={href}>
       <Button
         onClick={() => onClick()}
-        size={"iconlg"}
+        size={"icon"}
         variant={"default"}
         className={twMerge("bg-card/30 hover:bg-card hover:text-accent ", className)}
       >
