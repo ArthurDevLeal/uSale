@@ -7,7 +7,7 @@ export default function DefaultSideBar() {
     <Sidebar.Root>
       <Sidebar.Button href="/dashboard" onClick={() => {}} Icon={ChartPieIcon} />
       <Sidebar.Button href="/dashboard/revenues" onClick={() => {}} Icon={Wallet} />
-      <Sidebar.Button href="" onClick={() => {}} Icon={BanknoteArrowDown} />
+      <Sidebar.Button href="/dashboard/expenses" onClick={() => {}} Icon={BanknoteArrowDown} />
       <Sidebar.Button href="" onClick={() => {}} Icon={Calendar} />
       <Sidebar.Button href="" onClick={() => {}} Icon={FileText} />
     </Sidebar.Root>
