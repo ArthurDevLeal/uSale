@@ -1,4 +1,8 @@
 import DashboardCard from "./card";
+import DashboardExpenseCard from "./expenses/card";
+import DashboardExpenseHeader from "./expenses/header";
+import DashboardExpenseTableHeader from "./expenses/table-header";
+import DashboardExpenseTableItem from "./expenses/table-item";
 import DashboardHeader from "./header";
 import DashboardNavigation from "./navigation";
 import DashboardRevenueCard from "./revenues/card";
@@ -24,6 +28,14 @@ export const Dashboard = {
     Table: {
       Item: DashboardRevenueTableItem,
       Header: DashboardRevenueTableHeader,
+    },
+  },
+  Expenses: {
+    Card: DashboardExpenseCard,
+    Header: DashboardExpenseHeader,
+    Table: {
+      Item: DashboardExpenseTableItem,
+      Header: DashboardExpenseTableHeader,
     },
   },
 };

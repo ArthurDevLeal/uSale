@@ -27,7 +27,7 @@ export default function DashboardTableItem({ badge, date, brand, name, price, sr
           <Badge text={badge} />
         </div>
 
-        <p className={isPositive ? "text-green-600 font-medium" : "text-red-700 font-medium"}>
+        <p className={isPositive ? "text-emerald-600 font-medium" : "text-red-700 font-medium"}>
           {Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(price)}
         </p>
       </div>

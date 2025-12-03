@@ -9,7 +9,7 @@ interface TableItemProps {
   price: number;
   isRecurrent?: boolean;
 }
-export default function DashboardRevenueTableItem({
+export default function DashboardExpenseTableItem({
   badge,
   date,
   brand,
