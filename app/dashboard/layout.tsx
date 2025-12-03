@@ -6,7 +6,7 @@ export default function RegisterLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <main className="h-screen min-w-screen px-[2%] py-8 flex gap-16">
+    <main className="h-screen min-w-screen pl-[2%] flex gap-16">
       <DefaultSideBar />
       {children}
     </main>
