@@ -3,8 +3,7 @@ import Button from "@/components/ui/button";
 import { ArrowUpDown, BanknoteArrowDown, ChartBarStacked, PiggyBank, Plus } from "lucide-react";
 export default function Page() {
   return (
-    <div className="overflow-y-auto flex flex-col w-full gap-12 pr-[1.5%] mr-[0.5%] py-8">
-      <Dashboard.Navigation />
+    
       <div className="flex flex-col gap-6 h-full">
         <Dashboard.Header />
 
@@ -13,7 +12,8 @@ export default function Page() {
             mainText="Saldo Total"
             percentage={12.5}
             price={45423}
-            className="border-none bg-accent"
+           
+            accent
           />
           <Dashboard.Card mainText="Receitas" percentage={12.5} price={9433.0} />
           <Dashboard.Card mainText="Despesas" percentage={12.5} price={9433.0} />
@@ -23,16 +23,16 @@ export default function Page() {
           <div className="flex flex-col gap-2 pl-6 py-6 bg-card w-full rounded-4xl ">
             <Dashboard.Table.Header />
             <Dashboard.Table.Root>
-              <Dashboard.Table.Item name="Nike" price={33.44} date={new Date()} badge="Payment" />
-              <Dashboard.Table.Item name="Nike" price={33.44} date={new Date()} badge="Payment" />
-              <Dashboard.Table.Item name="Nike" price={33.44} date={new Date()} badge="Payment" />
-              <Dashboard.Table.Item name="Nike" price={33.44} date={new Date()} badge="Payment" />
-              <Dashboard.Table.Item name="Nike" price={33.44} date={new Date()} badge="Payment" />
-              <Dashboard.Table.Item name="Nike" price={33.44} date={new Date()} badge="Payment" />
-              <Dashboard.Table.Item name="Nike" price={33.44} date={new Date()} badge="Payment" />
-              <Dashboard.Table.Item name="Nike" price={33.44} date={new Date()} badge="Payment" />
-              <Dashboard.Table.Item name="Nike" price={33.44} date={new Date()} badge="Payment" />
-              <Dashboard.Table.Item name="Nike" price={33.44} date={new Date()} badge="Payment" />
+              <Dashboard.Table.Item name="Air force max" brand="Nike" price={33.44} date={new Date()} badge="Payment" />
+              <Dashboard.Table.Item name="Air force max" brand="Nike" price={33.44} date={new Date()} badge="Payment" />
+              <Dashboard.Table.Item name="Air force max" brand="Nike" price={33.44} date={new Date()} badge="Payment" />
+              <Dashboard.Table.Item name="Air force max" brand="Nike" price={33.44} date={new Date()} badge="Payment" />
+              <Dashboard.Table.Item name="Air force max" brand="Nike" price={33.44} date={new Date()} badge="Payment" />
+              <Dashboard.Table.Item name="Air force max" brand="Nike" price={33.44} date={new Date()} badge="Payment" />
+              <Dashboard.Table.Item name="Air force max" brand="Nike" price={33.44} date={new Date()} badge="Payment" />
+              <Dashboard.Table.Item name="Air force max" brand="Nike" price={33.44} date={new Date()} badge="Payment" />
+              <Dashboard.Table.Item name="Air force max" brand="Nike" price={33.44} date={new Date()} badge="Payment" />
+              <Dashboard.Table.Item name="Air force max" brand="Nike" price={33.44} date={new Date()} badge="Payment" />
             </Dashboard.Table.Root>
           </div>
 
@@ -55,7 +55,6 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 }
